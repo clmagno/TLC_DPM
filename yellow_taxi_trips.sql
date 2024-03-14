@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS yellow_taxi_trips (
+    VendorID INTEGER,
+    tpep_pickup_datetime TIMESTAMP,
+    tpep_dropoff_datetime TIMESTAMP,
+    Passenger_count INTEGER,
+    Trip_distance NUMERIC,
+    PULocationID INTEGER,
+    DOLocationID INTEGER,
+    RateCodeID INTEGER,
+    Store_and_fwd_flag CHAR(1),
+    Payment_type INTEGER,
+    Fare_amount NUMERIC,
+    Extra NUMERIC,
+    MTA_tax NUMERIC,
+    Improvement_surcharge NUMERIC,
+    Tip_amount NUMERIC,
+    Tolls_amount NUMERIC,
+    Total_amount NUMERIC,
+    Congestion_Surcharge NUMERIC,
+    Airport_fee NUMERIC
+);
